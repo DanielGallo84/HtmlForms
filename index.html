@@ -24,12 +24,32 @@
                 <option value="3">Artist</option>
                 <option value="4">Whatever</option>
             </select>
+        <p class="texto">Would you recommend this site?</p>
+            <div class="radio">      
+                <input type="radio"  id="choice1" name="choice" value="yes">
+                <label for="choice1">Yes</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="choice2" name="choice" value="no">
+                <label for="choice2">No</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="choice3" name="choice" value="maybe">
+                <label for="choice3">Maybe</label>
+            </div>
+           
+            <checkbox label="label" v-model="value" value="value"></checkbox>
                 
             
 
-            <radio></radio>
+           
             
         </form>
     </div>  
+    <div>
+        <button type="submit">Submit</button>
+    </div>
 </body>
 </html>
+
+<p class="texto">Would you recommend this site?</p>
